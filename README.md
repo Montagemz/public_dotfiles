@@ -1,8 +1,6 @@
-# Dotfiles
-
 My public dotfiles are stored here in case anyone asks for more.
 
-## Requirements
+# Requirements
 
 To use this configuration, you will need:
 
@@ -10,7 +8,7 @@ To use this configuration, you will need:
 - **Fetch:** [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Fonts:** [Nerd Fonts](https://www.nerdfonts.com/)
 
-## Usage
+# Usage
 
 You can import all these files into your `~/.config` directory and it should work out of the box.
 
