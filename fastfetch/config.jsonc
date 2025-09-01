@@ -1,0 +1,41 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "builtin",
+    "source": "default",  //use fastfetch --list-logos to find a fitting logo or use default for distro
+    "padding": { "top": 0, "left": 1, "right": 4 }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    { "type": "title", "keyWidth": 10 },
+
+    { "type": "os",      "key": " OS",            "keyColor": "yellow" },  //use nerdfonts to find your distro logo and insert it in the key section
+    { "type": "kernel",  "key": "├ Kernel",       "keyColor": "yellow" },
+    { "type": "packages","key": "├󰏖 Packages",    "keyColor": "yellow" },
+    { "type": "shell",   "key": "├ Shell",        "keyColor": "yellow" },
+    { "type": "localIP", "key": "├󰩟 Local IP",     "keyColor": "yellow" },
+    { "type": "uptime",  "key": "└󰅐 Start Time",   "keyColor": "yellow" },
+
+    "break",
+
+    { "type": "de",       "key": " DE",                "keyColor": "blue" },
+    { "type": "wm",       "key": "├󰧨 Window Manager",  "keyColor": "blue" },
+    { "type": "lm",       "key": "├󰧨 Login Manager",   "keyColor": "blue" },
+    { "type": "wmtheme",  "key": "├󰉼 WM Theme",        "keyColor": "blue" },
+    { "type": "theme",    "key": "├󰉼 Color Themes",    "keyColor": "blue" },
+    { "type": "terminal", "key": "└ Terminal",        "keyColor": "blue" },
+
+    "break",
+
+    { "type": "chassis", "key": "󰌢 PC",            "keyColor": "green" },
+    { "type": "board",   "key": "├ Board",        "keyColor": "green" },
+    { "type": "cpu",     "key": "├󰻠 CPU",          "keyColor": "green", "temp": true, "freqNdigits": 1 },
+    { "type": "memory",  "key": "├󰑭 RAM",          "keyColor": "green" },
+    { "type": "disk",    "key": "├ Disk",         "keyColor": "green" },
+    { "type": "gpu",     "key": "├󰍛 GPU",          "keyColor": "green" },
+    { "type": "display", "key": "└󰍹 Display(s)",   "keyColor": "green" }
+  ]
+}
+

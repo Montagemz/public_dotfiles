@@ -106,11 +106,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# fastfetch | lolcat -a -s 1000 -d 7 -t -F 0.05 --seed 107   #ubuntu
-fastfetch | lolcat -a -s 1000 -d 7 -t -F 0.05 --seed 7       #arch
+fastfetch | lolcat -a -s 1000 -d 7 -t -F 0.05 --seed 107        #ubuntu
+#  fastfetch | lolcat -a -s 1000 -d 7 -t -F 0.05 --seed 7       #arch
 
 alias purgehost='ssh-keygen -R'
-alias purgeknow='> ~/.ssh/known-hosts'
+alias purgeknown='> ~/.ssh/known-hosts'
 alias vz='nvim ~/.zshrc'
 alias sz='source ~/.zshrc'
 alias v='nvim'
