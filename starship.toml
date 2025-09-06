@@ -47,7 +47,6 @@ style_root = 'black bold'
 format = '[//](#AB9AAD) [$user](#E95420) ' # 2883ff
 disabled = false
 show_always = true
-aliases = { "marius.rischmann" = "montagem" }
 
 # Shows the hostname
 [hostname]
